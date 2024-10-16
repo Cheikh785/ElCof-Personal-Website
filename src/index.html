@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Cheikh Dev Personal Web Site</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Cheikh, Developer, Web Development, Backend, Angular, Java, Spring Boot, Full Stack, Software Engineer, JavaScript, Java, Keycloak, Docker" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Cheikh | Full Stack Developer specializing in Spring Boot and Angular. Passionate about creating innovative solutions in web and mobile development." />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <header class="header_area">
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <h1 class="hero-title load-hidden">
+              Hi, my name is <span class="text-color-main">Cheikh</span>
+              <br />
+              I'm a Software Enginer.
+            </h1>
+            <p class="hero-cta load-hidden">
+              <a rel="noreferrer" class="cta-btn cta-btn--hero" href="mailto:cheikhomar.cof@gmail.com"
+                >Hire me</a
+              >
+              <!-- <a rel="noreferrer" class="cta-btn cta-btn--hero" href=""
+                >Get cv</a
+              > -->
+            </p>
+          </div>
+          <!-- <div class="col-lg-4 col-md-12 banner-image">
+            <img src="./assets/banner-image.png" alt="banner-img" class="img-fluid">
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-4 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a curious and dynamic engineer, passionate about continuously acquiring new skills and knowledge in the tech field. 
+                Throughout my journey, I've had the opportunity to work on exciting projects that allowed me to hone my expertise 
+                in programming languages such as C and Java, as well as web and mobile development with frameworks like Angular and Flutter.
+              </p>
+              <p class="about-wrapper__info-text">
+                Always striving for growth and improvement, I keep up with emerging technologies and bring innovative solutions to technical challenges. 
+                Naturally organized, I place great emphasis on the quality of my work, while enjoying writing and reading as ways to fuel my creativity.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets\CV Cheikh Oumar Ba.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Consultancy Mission at CBAO</h3>
+                <div>
+                  <p class="mb-4">
+                    Led the development of both the mobile backend and backoffice applications (frontend and backend) for CBAO's branches, aimed at optimizing banking services. 
+                    The backoffice platform handles customer onboarding and client management for the mobile app, ensuring compliance with ISO 20022 standards. 
+                    Built with Spring Boot and Angular, the solution provides a seamless integration with CBAO's systems, boosting operational efficiency.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href=""
+                >
+                  Request Access
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href=""
+                >
+                  Technical Insights
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/cbao.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">FODEP Application for BSIC</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed an application to simplify the filling of the Prudential Declaration Form (FODEP) for credit institutions in the West African Economic and Monetary Union (UEMOA) 
+                    using Spring Boot. The solution streamlined the regulatory reporting process, reducing manual errors and improving efficiency for financial institutions.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href=""
+                >
+                  Request Access
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href=""
+                >
+                  Technical Insights
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/bsic.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Management Application for Nicomatic Subsidiaries</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a robust project management application for Nicomatic’s subsidiaries using Spring Boot for the backend and Angular for the frontend. 
+                    The application enables users to create and manage projects efficiently, assign tasks, and invite collaborators across different branches. 
+                    It supports real-time tracking of project workflows, allowing project managers to monitor progress, set deadlines, and track deliverables. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href=""
+                >
+                  Request Access
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href=""
+                >
+                  Technical Insights
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/nicomatic1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Technical Consultancy at Erco Web Solutions</h3>
+                <div>
+                  <p class="mb-4">
+                    Provided backend development expertise during a technical consultancy mission at Erco Web Solutions. 
+                    As a Spring Boot developer, I was responsible for designing and implementing robust, scalable backend solutions. 
+                    The role involved optimizing database interactions, ensuring API security, and integrating third-party services 
+                    to enhance the functionality of client-facing applications. My contributions significantly improved the efficiency 
+                    and reliability of the company's web solutions, while adhering to best practices in software engineering and agile methodologies.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href=""
+                >
+                  Request Access
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href=""
+                >
+                  Technical Insights
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/consultant1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Student Registration Management Platform for ESP Dakar</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a comprehensive registration management platform for the École Supérieure Polytechnique de Dakar using Java Enterprise Edition (JEE). 
+                    The platform streamlined the student enrollment process, automating admissions, course selection, and fee payment workflows. 
+                    It featured role-based access control, ensuring secure interactions for students, faculty, and administrative staff.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href=""
+                >
+                  Request Access
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href=""
+                >
+                  Technical Insights
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/class registration.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Feel free to reach out using the form below, I’ll get back to you as soon as possible.</p>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="contact-form">
+              <form id="contactForm" name="submit-to-google-sheet" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+  
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+  
+                <div class="mb-5">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+                </div>
+  
+                <button type="submit" class="btn btn-custom w-100">Send Message</button>
+              </form>
+  
+              <p id="confirmationMessage" class="text-success mt-3" style="display:none;">Your message has been sent successfully!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://t.co/UmrowsU5tu?amp=1" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="@cheikh-oumar-ba-90028019a/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/Cheikh785" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2024 - developed by ElCof
+          <a rel="noreferrer" href="https://github.com/Cheikh785" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+        <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/Cheikh785/Cheikh785/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer" 
+            class="github-button"
+            href="https://github.com/Cheikh785/Cheikh785"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star Cheikh785/Cheikh785 on GitHub"
+            >Star</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
