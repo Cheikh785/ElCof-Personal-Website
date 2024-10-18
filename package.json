@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "elcofdev",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "Cheikh Personal Website",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -25,11 +25,13 @@
     "console-browserify": "^1.2.0",
     "parcel": "^2.12.0",
     "prettier": "^2.8.1",
+    "process": "^0.11.10",
     "util": "^0.12.5"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "firebase": "^10.14.1",
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
