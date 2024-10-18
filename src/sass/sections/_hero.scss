@@ -22,7 +22,9 @@
 
   background: url("/src/assets/project.jpg");
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
