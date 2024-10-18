@@ -21,20 +21,22 @@
 .header_area .main-menu .navbar {
     position: fixed;
     width: 100%;
-    top: -1px;
-    left: 0; 
-    right: 0;
     background: #ffffffc7;
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     z-index: 999;
     transition: 1s ease;
 }
 
+#navbarNav {
+    padding-right: 5%;
+}
+
 .header_area .main-menu .nav-item .nav-link {
     text-transform: uppercase;
     padding: 1.7rem;
     color: $title-color;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin-right: 5%;
 }
 
 .header_area .main-menu .navbar-nav .active > a { 
