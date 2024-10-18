@@ -504,4 +504,23 @@
 
     <script defer type="module" src="index.js"></script>
   </body>
+
+  <script>
+    import { initializeApp } from "firebase/app";
+
+    import { getAnalytics } from "firebase/analytics";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCXylOBABpU21ocxrxB_vxofZTstz6KBDo",
+      authDomain: "elcofdev.firebaseapp.com",
+      projectId: "elcofdev",
+      storageBucket: "elcofdev.appspot.com",
+      messagingSenderId: "1032158170027",
+      appId: "1:1032158170027:web:779c2152edd07de65260ee",
+      measurementId: "G-F8X6GG5C09"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
